@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>About</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style type="text/css">
+    h1{
+     font-size:30px;
+     text-align:center;
+     font-weight:bold;
+     color:white;
+     height:50px;
+     background-color:rgba(85,107,47);
+     border:2px solid forestgreen;
+     }
+     body{
+     background-color:darkgreen;}
+     .navbar{
+            padding:10px;
+            font-family:sans-serif;
+            background-color:rgba(255,255,256,0.4);
+            }
+            .nav-list{
+            text-align:right;
+           }
+           span{ 
+            font-size:28px;
+            margin:0 20px;
+            cursor:pointer;
+            color:white;
+            display:block;}
+           ul{
+            display:none;}
+           ul li{
+            display:inline-block;
+            list-style:none;
+            margin:6px;
+           }
+           ul li a{
+            text-decoration:none;
+            font-size:20px;
+            color:black;
+            }
+            ul li a:hover{
+            color:white;
+            }
+     div.box{
+     text-align:center;
+     }
+     div.contact{
+     background-color:rgba(0,0,0,0.6);
+     }
+     img.round{
+     border-radius:50%;
+     border:2px solid yellow;}
+     p{
+      font-size:22px;
+      font-weight:bold;
+      padding:10px;
+      line-height:1.5;
+      text-align:justify;
+      color:yellow;}
+     h2{
+       text-align:center;
+       color:red;
+       }
+    h3{
+      text-align:center;
+      color:orange;
+      font-style:italic;
+      font-size:25px;
+      }
+    h4{
+      text-align:center;
+      color:pink;
+      font-size:20px;
+      }
+     a{
+     text-decoration:none;
+     font-size:22px;
+     color:white;
+      }
+    a:hover{
+     color:orangered;}
+     @media(max-width: 720px){
+       p{
+         font-size:18px;
+         line-height:1.2;}
+       h4{
+          font-size:18px;}
+       ul li{
+          margin:3px;}
+       ul li a{
+          font-size:18px;
+          }
+    } 
+    </style>
+  </head>
+   <body>
+    <div class="navbar">
+              <div class="nav-list">
+                  <span onclick="myfunction()">&#9776;</span>
+                <ul id="menu">
+                  <li><a href="index.html">Home</a></li> 
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="http://localhost/userregistration/login.php">Login</a></li> 
+                  <li><a href="course.html">Course</a></li>
+                  <li><a href="http://localhost/userregistration/register.php">Registration</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+              </div>
+            </div><br/>
+    <h1>ABOUT</h1>
+    <div class="box">
+    <img class="round" alt="my pic" src="mypic.png"/>
+    </div>
+    <p>Hi,I am Priya Chowdhury.I have passed my Secondary School Examination with 89.4% and then Higher Secondary Education with 87.4% .I have completed Bachelor of Science in Physics from Barrackpore Rastraguru Surendranath College under West Bengal State University.I have secured 2nd rank with 76% among all students of those colleges that are affiliated to my University.Now,after clearing NIMCET examniation,I am pursuing Master of Computer Applications offered by NIT Tiruchirappalli.
+I come with 4 years of teaching experience.Welcome to my online classes.. </p>
+                                      <div class="contact">
+                                        <h2>Get In Touch</h2>
+                                        <h3><i class="material-icons" style="font-size:30px;color:white;">contact_mail</i>&nbsp;&nbsp;&nbsp;email</h3>
+                                        <h4>priyachowdhury06583@gmail.com</h4>
+                                        <h3><i class="material-icons" style="font-size:30px;color:white;">phone</i>&nbsp;&nbsp;&nbsp;Call</h3>
+                                        <h4>8420884287</h4>
+                                        <h3><i class="material-icons" style="font-size:30px;color:white;">location_on</i>&nbsp;&nbsp;&nbsp;Address</h3>
+                                        <h4>Kolkata-700122</h4>
+                                      </div>
+          <a href="index.html">Back</a>
+          <script>
+            function myfunction(){
+               var x = document.getElementById("menu");
+               if(x.style.display== "block")
+                   x.style.display="none";
+               else
+                 x.style.display="block";
+             }
+        </script>
+  </body>
+</html>
