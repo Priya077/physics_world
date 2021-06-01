@@ -1,1 +1,1 @@
-E-learning website 
+Web app for students taking admission into online classes
